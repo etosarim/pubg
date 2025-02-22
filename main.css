@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+header{
+    background: rgba(0, 0, 0, 1);
+}
+
+.header{
+    height: 82px;
+    display: flex;
+}
+
+.header img{
+    margin-top: 18px;
+    width: 56px;
+    height: 46px;
+    margin-right: 914px; 
+}
+
+.smal{
+    display: flex;
+    width: 120px;
+}
+
+.smal img{
+    width: 30px;
+    height: 30px;
+    margin-top: 26px;
+    margin-right: 14px;    
+}
+
+.smal p{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+    margin-top: 34px;
+    color: white;
+    width: 76px;
+    height: 15px;    
+}
+
+.header h2{
+    width: 192px;
+    height: 82px;
+    background-color: rgba(241, 169, 0, 1);
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+    color: black;
+    text-align: center;
+    padding-top: 26px;
+    margin-left: 44px;    
+}
+
+.under{
+    height: 44px; 
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgba(34, 34, 34, 1);
+    padding-left: 285px;   
+}
+
+.word{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-right: 101px;    
+}
+
+.main{
+    height: 797px;
+    background-image: url('image 5.svg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    margin-top: 349px;
+    width: 534px;
+    justify-content: space-between;
+}
+
+.PC{
+    width: 235px;
+    height: 73px;
+    background-color: rgba(241, 169, 0, 1);
+    color: black;
+    text-align: center;
+    padding-top: 17px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.41px;        
+}
+
+.CONSOLE{
+    background-color: black;
+    color: white;
+}
+
+.h1{
+    padding-top: 10px;
+    margin-top: 31px;
+    margin-bottom: 142px;
+    width: 966px;
+    height: 202px;
+    text-align: center;
+    background-color: rgba(241, 169, 0, 0.33);
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77.45px;
+    letter-spacing: 0%;    
+}
+
+footer{
+    background-color: black;
+    height: 101px;
+}
+
+.foot{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot img{
+    width: 56px;
+    height: 46px;
+    margin-top: 28px;
+}
+
+.media img{
+    margin-top: 36px;
+    margin-right: 52px;
+    width: 24px;
+    height: 24px;    
+}
